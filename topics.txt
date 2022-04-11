@@ -1,0 +1,89 @@
+touch (filename) - creates a new file with that file name in the working directory
+
+mkdir (directory name) - creates a new directory
+
+cd (directory name) - change working directory
+
+git init - initalizes the directory
+
+ls -la .git - list all the files in the current working directory
+ - .. parent of the current working directory
+
+vi (file name) - can make changes to the file
+ - press i to enter into insertion mode
+ - press esc key to leave insertion mode
+ - :wq - to leave and go back to the command line
+
+git add (file name) - adds that file to the branch
+
+git commit -m "(message)" - commits to the changes on the file and leaves a message
+
+git status - shows any changes 
+
+git log - shows the different commits in the master branch
+
+git checkout -- (filename) - deletes the new changes to the file
+
+git config --(global, local, system) user.name "(name of user)" - adds the name of the user
+
+git config --(gloval, local, system) user.email "(email)" - adds an email
+
+git config --list --global - shows the configurations
+
+git config --global -e - edits the configuation settings
+
+git config --list - shows configuration
+
+cat (filename) - shows what is in the file
+
+git branch - shows the different branches
+
+git branch (branch name) - creates a new branch with the desired name
+
+git switch (branch name) - to swap to a different branch
+
+git merge (branch name) - to merge the changes with the main branch
+
+git branch -d (branch name) - to delete a branch
+
+git branch -D (branch name) - to force delete a branch that hasnt been fully merged
+
+gitk - opens a different window and you can see a detailed version of commitment history
+
+git stash - stashes changes on the branch
+
+git stash list - shows the list of all stashes
+
+git stash apply stash@{stash ID} - stash item with the stash id comes back
+
+git stash clear - deletes all the stashed items
+
+git stash drop stash@{stash ID} - deletes the stash item with the stash ID
+
+git stash pop stash@{stash ID} - pulls the most recent item from the stash list and applies the stashed item back into the working directory and then removes itself from the stashed list
+
+git stash show stash@{stash ID} - compare
+
+git stash show stash@{stash ID} --patch
+
+git clone (github repository url) - clones a public repository into your local machine
+
+git config --global --unset credential.helper - removes credentials from local machine
+
+git push origin main - asks you to sign into github repository or use token to log in and then pushes changes to the online repository
+
+git remote -v - fetch github repository
+
+git pull - pull changes from the remote repository
+
+git fetch - fetching all the files
+
+git branch -r - sees all the branches on the remote repository
+
+git branch -a - sees all branches including local
+
+git diff origin/main - sees the differences between the remote repository and the local machine
+
+git pull origin (name of branch) - pulls the branch into your local machine
+
+git push -u origin (name of branch) - pushes the changes to the remote repository or create a new remote repository if the repository has not been found
