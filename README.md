@@ -1,4 +1,3 @@
 # cognixia
 This repository is used for training purpose
-
-Hello
+pushing local machine to remote repository
