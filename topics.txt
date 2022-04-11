@@ -87,3 +87,5 @@ git diff origin/main - sees the differences between the remote repository and th
 git pull origin (name of branch) - pulls the branch into your local machine
 
 git push -u origin (name of branch) - pushes the changes to the remote repository or create a new remote repository if the repository has not been found
+
+Completely comfortable with everything I have learned so far
