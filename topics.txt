@@ -1,3 +1,25 @@
+Learned new linux commands
+Started with Gits
+Completed GIT basics
+Started with Git Hub
+
+For example:
+Opening a local repository
+Initialize a repository
+Merging branches
+Adding and committing changes to the remote
+Upstream
+Configuring user settings (global, local, or system)
+Changing directories
+Pushing changes
+Pulling changes
+Fetching changes
+Seeing the difference between different branches
+Listing branches and files in a repository
+Creating and editing text files from local machine
+
+Git commands:
+
 touch (filename) - creates a new file with that file name in the working directory
 
 mkdir (directory name) - creates a new directory
@@ -7,18 +29,18 @@ cd (directory name) - change working directory
 git init - initalizes the directory
 
 ls -la .git - list all the files in the current working directory
- - .. parent of the current working directory
 
+.. parent of the current working directory
 vi (file name) - can make changes to the file
- - press i to enter into insertion mode
- - press esc key to leave insertion mode
- - :wq - to leave and go back to the command line
 
+press i to enter into insertion mode
+press esc key to leave insertion mode
+:wq - to leave and go back to the command line
 git add (file name) - adds that file to the branch
 
 git commit -m "(message)" - commits to the changes on the file and leaves a message
 
-git status - shows any changes 
+git status - shows any changes
 
 git log - shows the different commits in the master branch
 
@@ -87,5 +109,3 @@ git diff origin/main - sees the differences between the remote repository and th
 git pull origin (name of branch) - pulls the branch into your local machine
 
 git push -u origin (name of branch) - pushes the changes to the remote repository or create a new remote repository if the repository has not been found
-
-Completely comfortable with everything I have learned so far
